@@ -22,6 +22,11 @@ Next build the app
 cargo build
 ```
 
+## Things to notice
+
+- [Define flags and options in yml](./src/config.yml)
+- [Parse command line flags and options](https://github.com/cgcardona/command_line_example/blob/master/src/configuration.rs#L9)
+
 ## Usage
 
 ```
