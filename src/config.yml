@@ -1,0 +1,15 @@
+name: Command Line Example
+version: "0.0.1"
+author: Gabriel Cardona <https://www.earth.engineering>
+about: Example of Clap integration
+args:
+  - amazing:
+      short: a
+      long: amazing
+      help: Be amazing.
+  - epic:
+      long: epic
+      short: e
+      value_name: EPIC
+      help: EPIC count.
+      takes_value: true
